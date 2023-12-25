@@ -1,3 +1,0 @@
-INDEX VERSION 1.4+D:\Project_Shoe\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-333182519.index
-2813598448.index

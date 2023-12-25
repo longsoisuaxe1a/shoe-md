@@ -1,9 +1,0 @@
-package com.springframework.vn.entity;
-
-import javax.persistence.Table;
-
-@Table(name="thuonghieu")
-public class ThuongHieu {
-	private int maThuongHieu;
-	private String tenThuongHieu;
-}

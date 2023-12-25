@@ -1,6 +1,0 @@
-package com.springframework.vn.entity;
-
-public class Giay_HoaDon {
-	private Giay giay;
-	private HoaDon hoaDon;
-}

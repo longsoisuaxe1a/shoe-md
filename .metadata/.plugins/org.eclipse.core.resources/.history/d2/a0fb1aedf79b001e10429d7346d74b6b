@@ -1,9 +1,0 @@
-package com.springframework.vn.entity;
-
-import javax.persistence.Embeddable;
-
-@Embeddable
-public class ChiTietHoaDon {
-	private int soLuong;
-	private double gia;
-}
