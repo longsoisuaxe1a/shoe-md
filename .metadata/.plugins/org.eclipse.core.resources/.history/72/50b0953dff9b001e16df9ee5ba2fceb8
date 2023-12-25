@@ -1,0 +1,9 @@
+package com.springframework.vn.entity;
+
+public class NguoiDung {
+	private int maNguoiDung;
+	private String tenNguoiDung;
+	private String matKhau;
+	private String email;
+	private String role;
+}

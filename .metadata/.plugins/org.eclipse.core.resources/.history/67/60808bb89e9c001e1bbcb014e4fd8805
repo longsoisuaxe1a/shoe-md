@@ -1,0 +1,41 @@
+package com.springframework.vn.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.springframework.vn.entity.Giay;
+@Repository
+public class GiayDaoImpl implements GiayDao{
+
+	@Override
+	public List<Giay> getAllListShoe() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Giay getShoeById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(Giay shoe) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Giay shoe) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Giay shoe) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

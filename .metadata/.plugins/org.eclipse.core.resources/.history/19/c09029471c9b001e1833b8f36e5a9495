@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 200px;
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    background-color: brown;
+}
+.content{
+    height: 1000px;
+    width: 100vw;
+    background-color: beige;
+}
+.footer{
+    height: 100px;
+    width: 100vw;
+    background-color: aqua;
+}

@@ -1,0 +1,7 @@
+package com.springframework.vn.entity;
+
+import java.io.Serializable;
+
+public class Giay_HoaDon implements Serializable{
+
+}

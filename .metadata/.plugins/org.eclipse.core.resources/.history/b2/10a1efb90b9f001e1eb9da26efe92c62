@@ -1,0 +1,50 @@
+package com.springframework.vn.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.springframework.vn.entity.Giay;
+import com.springframework.vn.entity.NguoiDung;
+import com.springframework.vn.service.GiayService;
+
+@Controller
+public class TrangChuController {
+	@Autowired
+	private GiayService service;
+	@RequestMapping("/")
+	public String index(Model model) {
+		List<Giay> giays = service.getAllListShoe();
+		model.addAttribute("giays", giays);
+		System.out.println(giays);
+		return "index";
+	}
+	@GetMapping("/index")
+	public String listGiay(Model model) {
+		List<Giay> giays = service.getAllListShoe();
+		model.addAttribute("giays", giays);
+		return "index";
+	}
+	@GetMapping("/form-register")
+	public String formRegister(Model model) {
+		NguoiDung nguoiDung = new NguoiDung();
+		model.addAttribute("nguoiDung", nguoiDung);
+		return "form-register";
+	}
+	@GetMapping("/form-login")
+	public String formLogin(Model model) {
+		NguoiDung nguoiDung = new NguoiDung();
+		model.addAttribute("nguoiDung", nguoiDung);
+		return "form-login";
+	}
+	@GetMapping("/admin-home-manager")
+	public String adminHomeManager(Model model) {
+		NguoiDung nguoiDung = new NguoiDung();
+		model.addAttribute("nguoiDung", nguoiDung);
+		return "admin-home-manager";
+	}
+}

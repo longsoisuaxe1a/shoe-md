@@ -1,0 +1,5 @@
+package com.springframework.vn.dao;
+
+public class LoaiGiayDaoImpl {
+
+}

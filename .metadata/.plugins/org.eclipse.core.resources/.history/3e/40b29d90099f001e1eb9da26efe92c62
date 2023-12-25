@@ -1,0 +1,9 @@
+package com.springframework.vn.dao;
+
+import java.util.List;
+
+import com.springframework.vn.entity.ThuongHieu;
+
+public interface ThuongHieuDao {
+	public List<ThuongHieu> getAllList();
+}

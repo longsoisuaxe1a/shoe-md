@@ -1,0 +1,5 @@
+package com.springframework.vn.service;
+
+public interface ShoeService {
+
+}

@@ -1,0 +1,409 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* header */
+.header{
+    width: 100vw;
+    height: 150px;
+    background-color: #FFD1DC;
+    position: relative;
+}
+/* nav */
+.nav{
+    height: 30px;
+    width: 1468px;
+    /* background-color: brown; */
+    position: relative;
+}
+/* content */
+.content{
+    height: auto;
+    width: 100vw;
+    background-image: url('/background_gach.jpg');
+}
+/* footer */
+.footer{
+    height: 100px;
+    width: 100vw;
+    background-color: aqua;
+}
+/* box search */
+.box_search {
+    position: absolute;
+    top: 60%;
+    /* margin-top: 10px; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box_search input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 600px;
+}
+
+.box_search button {
+    padding: 8px 15px;
+    background-color: #28a745; /* Màu nền nút tìm kiếm */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* logo_header */
+.logo_header {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 40px; /* Center the logo vertically */
+    left: 200px; /* Center the logo horizontally */
+    transform: translate(-50%, -50%); /* Center the logo perfectly */
+}
+
+.logo_header img {
+    max-width: 100%; /* Đảm bảo logo không vượt quá chiều rộng của .logo_header */
+    height: 120px; /* Đảm bảo tỷ lệ khung hình không bị méo */
+    border-radius: 50%; /* Bo tròn viền cho hình ảnh (đối với hình vuông hoặc chữ nhật) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+}
+/* login_register */
+.login_register {
+    left: 1100px;
+    display: flex;
+    align-items: center;
+    height: 50px; /* Adjust the height of the container */
+    /* background-color: #f0f0f0; */
+    position: absolute;
+}
+
+.login_register a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set the text color */
+    padding: 10px; /* Add some padding for better visual appearance */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login_register a:hover {
+    background-color: #ddd; /* Change the background color on hover */
+}
+/* cart_header */
+.cart_header {
+    position: absolute;
+    display: flex;
+    left: 1200px;
+    top: 60px;
+    align-items: center;
+    height: 50px; /* Adjust the height of the container */
+    /* background-color: #f0f0f0; */
+    padding: 0 20px; /* Add some padding for better visual appearance */
+}
+
+.cart_header button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 10px; /* Add some space to the right of the button */
+}
+/* shop_name */
+.shop_name {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Màu nền của div */; /* Màu hồng pastel, bạn có thể thay đổi mã màu theo sở thích */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}
+
+.shop_name h1 {
+    color: #FF1493;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Hiệu ứng bóng đổ */
+}
+/* nav */
+.nav {
+    background-color: #333; /* Màu nền của menu */
+    padding: 10px; /* Khoảng cách giữa nội dung và mép của menu */
+}
+
+.nav ul {
+    list-style: none; /* Loại bỏ dấu đầu dòng của danh sách */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hiển thị các mục menu theo chiều ngang */
+}
+
+.nav li {
+    margin-right: 20px; /* Khoảng cách giữa các mục menu */
+}
+
+.nav li:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách ở cuối danh sách */
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff; /* Màu chữ cho mục menu */
+    font-weight: bold;
+    font-size: 16px; /* Kích thước chữ cho mục menu */
+    transition: color 0.3s; /* Hiệu ứng chuyển đổi màu chữ khi rê chuột */
+    font-size: 25px;
+}
+
+.nav li a:hover {
+    color: #FF1493; /* Màu chữ khi rê chuột vào mục menu */
+}
+.nav_menu{
+    position: absolute;
+    left: 30%;
+}
+/* box_shoe */
+.box_shoe {
+    height: 620px;
+    width: 450px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.box_shoe:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.tenGiay {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.image-container {
+    height: 460px; /* Đặt chiều cao của container hình ảnh là 70% của .box_shoe */
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.shoe_image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.image-container:hover .shoe_image {
+    transform: scale(1.1);
+}
+
+.box_add_buy {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="button"] {
+    padding: 10px;
+    width: 48%;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+/* footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-address {
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* tenGiay */
+/* Style for the box containing the shoe name */
+.box_tenGiay {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Style for the shoe name */
+.tenGiay {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for the button container */
+.box_btn_detail {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style for the button */
+.btn_detail {
+    background-color: #3498db; /* Button color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Change button color on hover */
+.btn_detail:hover {
+    background-color: #2980b9;
+}
+
+/* Styles for the modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
+}
+
+/* Modal content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Add some styles to the content inside the modal */
+.modal-content h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.modal-content h4 {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Additional styling for a button if needed */
+.modal-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+.modal-content button:hover {
+    background-color: #45a049;
+}
+/* banner */
+.banner {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+/* Styles for the left banner box */
+.box_banner_left {
+    flex: 65%; /* Adjust as needed */
+    height: 300px; /* Fixed height for the container */
+    overflow: hidden;
+    position: relative;
+    border: 1px solid black;
+}
+
+/* Styles for the right banner box */
+.box_banner_right {
+    flex: 35%; /* Adjust as needed */
+    height: 300px; /* Fixed height for the container */
+    overflow: hidden;
+    /* margin-left: 5%; Adjust the gap between the left and right sections */
+    position: relative;
+    border: 1px solid black;
+}
+
+/* Styles for the banner image */
+.box_banner_left img,
+.box_banner_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

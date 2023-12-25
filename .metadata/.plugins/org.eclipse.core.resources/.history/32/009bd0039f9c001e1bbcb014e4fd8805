@@ -1,0 +1,46 @@
+package com.springframework.vn.service;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springframework.vn.dao.GiayDao;
+import com.springframework.vn.entity.Giay;
+@Service
+public class GiayServieImpl implements GiayService{
+	@Autowired
+	private GiayDao dao;
+	@Transactional
+	@Override
+	public List<Giay> getAllListShoe() {
+		return dao.getAllListShoe();
+	}
+	@Transactional
+	@Override
+	public Giay getShoeById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(Giay shoe) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Giay shoe) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Giay shoe) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

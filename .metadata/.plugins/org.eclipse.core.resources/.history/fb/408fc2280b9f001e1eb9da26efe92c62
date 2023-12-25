@@ -1,0 +1,58 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>admin-form-add-thuonghieu</title>
+<style type="text/css">
+	 /* Reset some default margin and padding for consistent styling */
+    body, h1, h2, p, div, form, input {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Apply some basic styling to the header section */
+    .ten-shop {
+        background-color: #ffb6c1; /* Pastel pink background color */
+        color: #333; /* Example text color */
+        padding: 10px; /* Example padding */
+        text-align: center; /* Center text */
+    }
+
+    /* Style the main content section */
+    .container {
+        margin: 20px; /* Example margin */
+    }
+
+    /* Style the form */
+    form {
+        margin-top: 20px; /* Example margin */
+    }
+
+    /* Style form inputs */
+    label {
+        display: block;
+        margin-bottom: 8px; /* Example margin */
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px; /* Example margin */
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50; /* Example button color */
+        color: #fff; /* Example text color */
+        padding: 10px 20px; /* Example padding */
+        border: none; /* Remove border */
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+</body>
+</html>

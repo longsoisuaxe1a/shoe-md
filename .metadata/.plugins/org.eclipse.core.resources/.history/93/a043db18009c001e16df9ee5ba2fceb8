@@ -1,0 +1,6 @@
+package com.springframework.vn.entity;
+
+public class GioHang {
+	private int maGioHang;
+	private int soLuong;
+}

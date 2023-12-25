@@ -1,0 +1,18 @@
+package com.springframework.vn.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "loaigiay")
+public class LoaiGiay {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int maLoai;
+	@Column(columnDefinition = "nvarchar(50)")
+	private String tenLoai;
+}

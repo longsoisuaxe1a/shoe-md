@@ -1,0 +1,15 @@
+package com.springframework.vn.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+@Entity
+public class Giay_HoaDon implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Giay giay;
+	private HoaDon hoaDon;
+}

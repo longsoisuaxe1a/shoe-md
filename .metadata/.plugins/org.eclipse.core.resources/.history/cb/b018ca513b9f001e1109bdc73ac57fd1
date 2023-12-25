@@ -1,0 +1,14 @@
+package com.springframework.vn.dao;
+
+import java.util.List;
+
+import com.springframework.vn.entity.NguoiDung;
+
+
+public interface NguoiDungDao {
+	public List<NguoiDung> getAllList();
+	public NguoiDung getLoaiGiayById(int id);
+	public void add(LoaiGiay loaiGiay);
+	public void delete(int id);
+	public void update(LoaiGiay loaiGiay);
+}
